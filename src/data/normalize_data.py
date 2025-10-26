@@ -5,7 +5,7 @@ scaler = MinMaxScaler()
 
 X_train = pd.read_csv("data/processed/X_train.csv")
 X_test = pd.read_csv("data/processed/X_test.csv")
-print(X_train.head())
+
 X_train_scaler = scaler.fit_transform(X_train)
 X_test_scaler = scaler.transform(X_test)
 
