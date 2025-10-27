@@ -60,6 +60,7 @@ mdurl==0.1.2
 multidict==6.7.0
 networkx==3.5
 numpy==2.3.4
+nvidia-nccl-cu12==2.28.7
 omegaconf==2.3.0
 orjson==3.11.4
 packaging==25.0
@@ -112,5 +113,6 @@ vine==5.1.0
 voluptuous==0.15.2
 wcwidth==0.2.14
 wrapt==1.17.3
+xgboost==3.1.1
 yarl==1.22.0
 zc.lockfile==4.0
